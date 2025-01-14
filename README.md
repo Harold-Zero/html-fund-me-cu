@@ -1,4 +1,4 @@
-# html-fund-me-cu
+# html-fund-me-cu，fundme合约配套的简易前端，有功夫的话再改改
 
 *[⭐️ (2:37:02) | Lesson 8: HTML Fund Me](https://www.youtube.com/watch?v=sas02qSFZ74&t=9422s)*
 
@@ -29,11 +29,15 @@ If you can't or don't want to run and install locally, you can work with this re
 
 # Quickstart 
 
-1. Clone the repo
+### git相关操作
 
-```
-git clone https://github.com/Cyfrin/html-fund-me-cu
-cd html-fund-me-cu
+```shell
+$ git add .
+$ git commit -m "描述你的更改"
+$ git push -u origin master 
+$ git remote -v 
+$ git remote set-url origin https://github.com/Eternal-zdh/html-fund-me-cu.git
+$ git log
 ```
 
 2. Run the `index.html` file

@@ -34,7 +34,7 @@ async function withdraw() {
     const contract = new ethers.Contract(contractAddress, abi, signer)
     try {
       console.log("Processing transaction...")
-      const transactionResponse = await contract.withdraw()
+      const transactionResponse = await contract.withDraw()
       await transactionResponse.wait(1)
       console.log("Done!")
     } catch (error) {
